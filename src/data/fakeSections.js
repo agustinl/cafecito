@@ -1,0 +1,215 @@
+import {
+	IconPalette,
+	IconArticle,
+	IconBrain,
+	IconMovie,
+	IconSalad,
+	IconUsersGroup,
+	IconBat,
+	IconAlien,
+	IconTrophy,
+	IconPigMoney,
+	IconTools,
+	IconSchool,
+	IconVocabulary,
+	IconYoga,
+    IconMenu2,
+    IconCamera,
+    IconCpu,
+    IconDeviceGamepad2,
+    IconHanger,
+    IconMusic,
+    IconBuildingStore,
+    IconNews,
+    IconWorld,
+    IconTextPlus,
+    IconVideo,
+    IconNotebook,
+    IconBrush,
+    IconMicrophone,
+    IconCameraSelfie,
+    IconStethoscope,
+    IconDeviceImac,
+    IconCast,
+    IconMasksTheater,
+} from "@tabler/icons-react";
+
+const fakeSections = [
+	{
+		icon: <IconMenu2 size={18} />,
+		name: "Todas",
+		link: "/explore",
+	},
+	{
+		icon: <IconPalette size={18} />,
+		name: "Arte",
+		link: "/",
+	},
+	{
+		icon: <IconPalette size={18} />,
+		name: "Artesanias",
+		link: "/",
+	},
+	{
+		icon: <IconArticle size={18} />,
+		name: "Blog",
+		link: "/",
+	},
+	{
+		icon: <IconBrain size={18} />,
+		name: "Ciencia y tecnologia",
+		link: "/",
+	},
+	{
+		icon: <IconMovie size={18} />,
+		name: "Cine y video",
+		link: "/",
+	},
+	{
+		icon: <IconBat size={18} />,
+		name: "Comic",
+		link: "/",
+	},
+	{
+		icon: <IconSalad size={18} />,
+		name: "Comida y bebida",
+		link: "/",
+	},
+	{
+		icon: <IconUsersGroup size={18} />,
+		name: "Comunidades",
+		link: "/",
+	},
+	{
+		icon: <IconAlien size={18} />,
+		name: "Cosplay",
+		link: "/",
+	},
+	{
+		icon: <IconTrophy size={18} />,
+		name: "Deporte",
+		link: "/",
+	},
+	{
+		icon: <IconPigMoney size={18} />,
+		name: "Dinero",
+		link: "/",
+	},
+	{
+		icon: <IconTools size={18} />,
+		name: "Diseño",
+		link: "/",
+	},
+	{
+		icon: <IconSchool size={18} />,
+		name: "Educación",
+		link: "/",
+	},
+	{
+		icon: <IconVocabulary size={18} />,
+		name: "Escritura y literatura",
+		link: "/",
+	},
+	{
+		icon: <IconYoga size={18} />,
+		name: "Estilo de vida",
+		link: "/",
+	},
+	{
+		icon: <IconCamera size={18} />,
+		name: "Fotografia",
+		link: "/",
+	},
+	{
+		icon: <IconCpu size={18} />,
+		name: "Hardware",
+		link: "/",
+	},
+	{
+		icon: <IconCpu size={18} />,
+		name: "Hardware",
+		link: "/",
+	},
+	{
+		icon: <IconDeviceGamepad2 size={18} />,
+		name: "Juegos",
+		link: "/",
+	},
+	{
+		icon: <IconHanger size={18} />,
+		name: "Moda",
+		link: "/",
+	},
+	{
+		icon: <IconMusic size={18} />,
+		name: "Musica",
+		link: "/",
+	},
+	{
+		icon: <IconBuildingStore size={18} />,
+		name: "Negocios locales",
+		link: "/",
+	},
+	{
+		icon: <IconNews size={18} />,
+		name: "Noticias",
+		link: "/",
+	},
+	{
+		icon: <IconWorld size={18} />,
+		name: "ONG",
+		link: "/",
+	},
+	{
+		icon: <IconTextPlus size={18} />,
+		name: "Otros",
+		link: "/",
+	},
+	{
+		icon: <IconVideo size={18} />,
+		name: "Peliculas y series",
+		link: "/",
+	},
+	{
+		icon: <IconNotebook size={18} />,
+		name: "Periodismo",
+		link: "/",
+	},
+	{
+		icon: <IconBrush size={18} />,
+		name: "Pintura y Dibujo",
+		link: "/",
+	},
+	{
+		icon: <IconMicrophone size={18} />,
+		name: "Podcast",
+		link: "/",
+	},
+	{
+		icon: <IconCameraSelfie size={18} />,
+		name: "Redes sociales",
+		link: "/",
+	},
+	{
+		icon: <IconStethoscope size={18} />,
+		name: "Salud y bienestar",
+		link: "/",
+	},
+	{
+		icon: <IconDeviceImac size={18} />,
+		name: "Software",
+		link: "/",
+	},
+	{
+		icon: <IconCast size={18} />,
+		name: "Streaming",
+		link: "/",
+	},
+	{
+		icon: <IconMasksTheater size={18} />,
+		name: "Teatro",
+		link: "/",
+	},
+];
+
+export default fakeSections;
